@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.wordpress.qa.testcases.EndToEndTest"/>
+      <class name="com.wordpress.qa.testcases.AddtocartPageTest"/>
+      <class name="com.wordpress.qa.testcases.LoginPageTest"/>
+      <class name="com.wordpress.qa.testcases.IndexPageTest"/>
+      <class name="com.wordpress.qa.testcases.SearchResultPageTest"/>
+      <class name="com.wordpress.qa.testcases.AccountNewCreatTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
